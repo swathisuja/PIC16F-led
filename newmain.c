@@ -7,10 +7,10 @@
 #include "pic16f1947.h"
 #pragma config WDTE = OFF        // Watchdog Timer Enable bit (WDT disabled (control is placed on the SWDTEN bit))
 void delay();
-
+//my first comment in this file as a change
 void delay() {
     int counter = 0;
-    for (counter = 0; counter<10000; counter++) {
+    for (counter = 0; counter<1000; counter++) {
         ;
     }
 }
